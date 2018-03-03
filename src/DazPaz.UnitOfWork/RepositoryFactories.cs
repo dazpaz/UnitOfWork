@@ -18,6 +18,8 @@ namespace DazPaz.UnitOfWork
 			RepositoryFactoryDictionary = factories;
 		}
 
+		#region IRepositoryFactories
+
 		public Func<DbContext, object> GetRepositoryFactoryForEntityType<T>() where T : class
 		{
 			var repoFactory = GetRepositoryFactory<T>();
@@ -29,6 +31,8 @@ namespace DazPaz.UnitOfWork
 			RepositoryFactoryDictionary.TryGetValue(typeof(T), out Func<DbContext, object> factory);
 			return factory;
 		}
+
+		#endregion
 
 		protected virtual Func<DbContext, object> DefaultEntityRepositoryFactory<T>() where T : class
 		{
