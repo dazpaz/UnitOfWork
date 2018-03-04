@@ -20,7 +20,7 @@ namespace DazPaz.UnitOfWork.Example.Migrations
 					new Category { Title = "Household" },
 					new Category { Title = "Shopping" },
 					new Category { Title = "Family" },
-					new Category { Title = "Work" }
+					new Category { Title = "Holiday" }
 				});
 		}
 	}
