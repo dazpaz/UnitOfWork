@@ -51,6 +51,11 @@
   <ItemGroup>
     <Compile Include="Helper\ToDoDbContextFactory.cs" />
     <Compile Include="IToDoUnitOfWork.cs" />
+    <Compile Include="Migrations\201803041910477_Initial.cs" />
+    <Compile Include="Migrations\201803041910477_Initial.Designer.cs">
+      <DependentUpon>201803041910477_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Status.cs" />
     <Compile Include="Model\ToDo.cs" />
@@ -71,6 +76,10 @@
       <Name>DazPaz.UnitOfWork</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201803041910477_Initial.resx">
+      <DependentUpon>201803041910477_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

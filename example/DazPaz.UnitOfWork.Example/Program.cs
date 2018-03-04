@@ -20,6 +20,9 @@ namespace DazPaz.UnitOfWork.Example
 			//UpdateToDos(ToDoUnitOfWork.Create());
 			//DeleteToDos(ToDoUnitOfWork.Create());
 			//GetListToDos(ToDoUnitOfWork.Create());
+
+			Console.WriteLine("Press any key to continue...");
+			Console.ReadLine();
 		}
 
 		public static void GetListOfCategories(IToDoUnitOfWork uow)
@@ -28,7 +31,7 @@ namespace DazPaz.UnitOfWork.Example
 			Console.WriteLine(string.Format("Categories ({0})", categories.Count));
 			foreach (var category in categories)
 			{
-				Console.WriteLine(" - " + category);
+				Console.WriteLine(" - " + category.Title);
 			}
 
 			Console.WriteLine();
