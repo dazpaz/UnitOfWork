@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DazPaz.UnitOfWork", "src\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DazPaz.UnitOfWork.Tests", "test\DazPaz.UnitOfWork.Tests\DazPaz.UnitOfWork.Tests.csproj", "{5501D2AC-AAA9-4A17-AEC2-1F45CDF450F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DazPaz.UnitOfWork.Example", "example\DazPaz.UnitOfWork.Example\DazPaz.UnitOfWork.Example.csproj", "{18FEA099-C9DB-44DF-B46D-E49FC72961F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5501D2AC-AAA9-4A17-AEC2-1F45CDF450F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5501D2AC-AAA9-4A17-AEC2-1F45CDF450F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5501D2AC-AAA9-4A17-AEC2-1F45CDF450F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FEA099-C9DB-44DF-B46D-E49FC72961F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FEA099-C9DB-44DF-B46D-E49FC72961F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FEA099-C9DB-44DF-B46D-E49FC72961F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FEA099-C9DB-44DF-B46D-E49FC72961F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
