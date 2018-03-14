@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/dazpaz/UnitOfWork/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dazpaz/UnitOfWork</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial version of the Unit of Work package.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>UOW Repository EF Entity Framework</tags>
+  </metadata>
+</package>
