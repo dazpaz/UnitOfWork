@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <id>DazPaz.UnitOfWork</id>
+    <version>0.1.0</version>
+    <title>DazPaz.UnitOfWork</title>
+    <authors>Darren Powell</authors>
+    <owners>Darren Powell</owners>
     <licenseUrl>https://raw.githubusercontent.com/dazpaz/UnitOfWork/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/dazpaz/UnitOfWork</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>Unit Of Work</description>
     <releaseNotes>Initial version of the Unit of Work package.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>UOW Repository EF Entity Framework</tags>
