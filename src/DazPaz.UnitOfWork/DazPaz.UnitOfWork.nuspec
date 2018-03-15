@@ -19,5 +19,5 @@
   </metadata>
   <files>
     <file src="bin\$configuration$\DazPaz.UnitOfWork.dll" target="lib\net461" />
-  </files
+  </files>
 </package>
