@@ -3,15 +3,21 @@
   <metadata>
     <id>DazPaz.UnitOfWork</id>
     <version>0.1.0</version>
-    <title>DazPaz.UnitOfWork</title>
+    <title>DazPaz Unit Of Work</title>
     <authors>Darren Powell</authors>
     <owners>Darren Powell</owners>
     <licenseUrl>https://raw.githubusercontent.com/dazpaz/UnitOfWork/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/dazpaz/UnitOfWork</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Unit Of Work</description>
+    <description>Unit Of Work pattern over Entity Framework</description>
     <releaseNotes>Initial version of the Unit of Work package.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>UOW Repository EF Entity Framework</tags>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.2.0"/>
+    </dependencies>
   </metadata>
+  <files>
+    <file src="bin\$configuration$\DazPaz.UnitOfWork.dll" target="lib\net461" />
+  </files
 </package>
